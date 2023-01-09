@@ -76,7 +76,7 @@ export default function TextForm(props) {
         <button className='btn btn-primary mx-5' onClick={handleSpaceClick}>
         Remove Extra Spaces</button>
 
-        <button className='btn btn-primary mx-5' onClick={speakClick} id='toggle'> 
+        <button style={color="red"} className='btn btn-primary mx-5' onClick={speakClick} id='toggle'> 
         Speak</button>
 
         <div className="my-3">
